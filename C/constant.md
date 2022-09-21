@@ -5,7 +5,5 @@
 ```C
 const int AGE = 37
 ```
-Other way using [[C/#preprocessor directive]] : 
-```C
-#define AGE = 42  // no type and ";" needed !
-```
+
+## Other way using the preprocessor define: ![[define]] 

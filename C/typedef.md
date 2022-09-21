@@ -28,7 +28,7 @@ void test(){
 ## Scope :
 [[scope]]
 Be ===carful=== with the scope, if define at a global level, it will be accessible in all the file.
-If defined in a function, will no longer exister a
+If defined in a function, at the end of the function the variables will no longer exist any more
 
 ## With [[structure]] :
 ![[structure#With typedef]]

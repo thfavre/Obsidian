@@ -1,9 +1,9 @@
-# [[C]] preprocessor include
+# [[C]] include
 
 Source : https://www.youtube.com/watch?v=1VwZ4aI8rUk&list=PLVQYiy6xNUxxMI_GiGGb2hxMcd3IwNYRy&index=2
 
 ## Theorie :
-C'est une commande du [[C/#preprocessor directive]] -> fait avant la [[compilation]]
+C'est une commande du [[preprocessor directive]] -> fait avant la [[compilation]]
 
 <> chercher dans les directives de base du compilateur 
 "" chercher dans le repertoire actuel ou repectoire fourni dans les -i
@@ -24,6 +24,7 @@ Ca va copier le fichier fct.c a la place du include
 
 ## .h
 c'est .header, l'endroit ou ya les prototype de functions (et rarement des fonctions) afin de partager le prototype dans plusieurs fichiers
+Les [[library]] sont des include!
 
 ### Example :
 ```C:main

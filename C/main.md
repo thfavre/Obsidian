@@ -20,7 +20,7 @@ echo $?
 
 ## Arguments :
 ```C
-int main(int argc, char **argv,char **environ)
+int main(int argc, char **argv, char **environ)
 ```
 #### int argc : arguments counts
 It include the file name (so when there is no arugments, args=1)

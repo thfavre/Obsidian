@@ -1,8 +1,8 @@
-# [[C]] preprocessor ifdef ifndef
-
+# [[C]] ifdef ifndef
+It is a [[preprocessor directive]]
 ## \#ifdef :
 pour savoir si ca a ete define
-pareil que if defined ([[preprocessor if else elif endif if defined]])
+pareil que if defined ([[if else elif endif if defined]])
 
 ## \#ifndef
 pur savoir si ca n'a pas ete define

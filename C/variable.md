@@ -39,7 +39,7 @@ int foo1 = 1, foo2 = 2;
 
 ## ![[static variable]]
 ## Constant :
-if there is no need to motify the variable -> [[constant|constants]]
+If there is no need to motify the variable -> [[constant|constants]]
 
 
 

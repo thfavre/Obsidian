@@ -1,5 +1,5 @@
-# [[C]] preprocessor define
-Commence avec \# c'est donc [[C/#preprocessor directive]]  -> executer avant la compilation
+# [[C]] define
+Commence avec \# c'est donc [[preprocessor directive]]-> executer avant la compilation
 Sert a definir une variable puis a la remplacer
 ===Remplacement par text===!
 
@@ -41,7 +41,7 @@ cpp main.c
 ...
 	printf("hehe %d", 42);
 ```
-### ABS :
+### ABS (val absoule):
 ```C
 # define ABS(value) (value < 0 ? -value : value)
 ```
@@ -52,4 +52,3 @@ Example to change the LOL to "grrr" -> -D...
 gcc -DLOL=grr
 ```
 
-### TESt

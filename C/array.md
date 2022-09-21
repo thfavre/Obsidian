@@ -26,8 +26,9 @@ tab[n] == *(tab +n)
 
 
 ## String
-See [[string]]
+ ![[string]]
 
+## Old notes :
 Arrays : 
 		Concept :
 			-The size of an array can not change after his creation

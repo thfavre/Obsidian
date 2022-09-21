@@ -3,7 +3,7 @@
 ## gcc :
 ### Phases :
 #### 1) Le prepross : 
-ex :  [[preprocessor include]]
+ex :  [[include]]
 commande : cpp
 #### 2) Compilation :
 compilations de tous les fichiers .c

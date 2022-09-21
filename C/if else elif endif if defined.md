@@ -1,5 +1,5 @@
-# [[C]] preprocessor if else elif endif if defined
-
+# [[C]] if else elif endif if defined
+It is a [[preprocessor directive]]
 ## Example :
 ```C:main
 int main()
@@ -21,7 +21,7 @@ int main()
 ```
 Print nothing
 
-### Combine with [[preprocessor define]] :
+### Combine with [[define]] :
 ```C:main
 #define TEST 15
 int main()

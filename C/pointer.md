@@ -60,10 +60,7 @@ It is impossible to attriuate an other value than 0
 
 
 
-## Examples :
-
-
-
+## Old notes :
 Pointers * :
 		Concept :
 			-A pointer is the address of a block of memory that contains a variable
@@ -95,8 +92,6 @@ Pointers * :
 				int a = 2;
 				test(&2)
 			
-			
-
 Dereference : 
 			To get the value of the variable the pointer points, use the * operator (dereference operator)
 			Example : 

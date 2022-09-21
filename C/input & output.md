@@ -1,13 +1,18 @@
 # [[C]] input & output
 ## Output / String formating :
-- "%d" ||"%i" 	int	printf("Blabla %d bla", nombreDeVies);
+- "%d" || "%i" 	int
 - "%u"	unsigned int
 - "%ld"	long
 - "%f"	float
 - "%f"	double
 - "%c"	char
 - "%s"	strings
-- "%p"	pointer		int myAge=43; printf("%p", &myAge);  // Outputs 0x7ffe5367e044
+- "%p"	pointer		
+### Example :
+```C
+printf("Blabla %d bla", nombreDeVies);
+int myAge=43; printf("%p", &myAge);  // Outputs 0x7ffe5367e044
+```
 
 ## Input :
 ### Syntax :
