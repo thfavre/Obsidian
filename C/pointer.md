@@ -58,6 +58,37 @@ ptr = 0;  // it is called a null pointer
 It point to nothing, usefull to see if a pointer is used.
 It is impossible to attriuate an other value than 0
 
+## Pointer on function
+For example it is possible  to make a array of functions
+```C
+int fct(char c)
+{
+	return 0;
+}
+
+int main()
+{
+	int (*ptr)(char); //ptr is a pointer on a fucntion that will return a int and take as parameter a char
+	ptr = &fct; // it takes the address of fct
+	(*ptr)('o');
+}
+```
+We need the ( )
+### Example :
+```C
+void	ft_foreach(int *tab, int length, void(*f)(int)) {
+	int	i = 0;
+	while (i < length)
+		f(tab[i++]);
+}
+
+void add3AndPrint(int i) {   printf(" %d ", i + 3);   }
+
+int main() {
+	int tab[] = {1, 2, 3, 10};
+	ft_foreach(tab, 4, &add3AndPrint); // print 4 5 6 14
+}
+```
 
 
 ## Old notes :
