@@ -1,24 +1,38 @@
-# Git
-## Commit : 
-```shell
-git clone URL choseFolderNam
-copy paste all needed folder inside choseFolderNam
-cd choseFolderNam
-git add ex*  # ex to not put .DS_Store
-git commit -m "it is the comment section"
-git push 
-```
-### Download files
-```shell
-git pull
-```
+# Learn Git :
+- https://learngitbranching.js.org/
 
-### See all files 
-```shell
-git ls-files
-```
+# Info :
+- *master* is getting rename in *main*
 
-## .gitignore
+# Commands :
+## Commits : 
+Save all staged changes, along with a brief description from the user.
+`git commit`
+
+## Branching
+They are simply pointers to a specific commit -- nothing more.
+A branch essentially says "I want to include the work of this commit and all parent commits."
+`git branch <branchName>`
+### Checkout
+This will put us on the new branch (before committing our changes).
+`git checkout <branchName>`
+(Replaced with the `git switch` command)
+
+## Merging
+To combine the work from two different branches together. This will allow us to branch off, develop a new feature, and then combine it back in.
+1. `git merge branchName` It will merge branchName in the current branch (ex. main) (It create a commit containing branchName and main).
+## Rebase
+It takes a set of commits, "copies" them, and plops them down somewhere else.
+It is cleaner than merging (make a linear tree).
+`(from branchName) git rebase main`
+# Work :
+1. Create a new branch to work on : `git branch <name>`
+2. Go on the new branch (checkout) `git checkout <name>`
+3. 
+
+
+___
+# .gitignore
 create this file inside a git repertory and write the file you don't want
 ### Creation :
 ```shell
@@ -28,20 +42,3 @@ vim .gitignore
 .DS_Store
 ```
 
-
-## Other solution :
-```shell
-git add *  # first commit all the needed files
-git commit -m "decription..."
-
-git remote add origin {insert intra repo here}
-git push origin master
-
-# to test the code :
-git clone {insert intra repo here}
-```
-### When it don't works :
-1) delete .git
-2) git init
-3) git remote add origin {insert intra repo here}
-4) git push origin master

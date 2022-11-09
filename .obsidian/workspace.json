@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "1d1b4b22f0c82b30",
+    "type": "split",
+    "children": [
+      {
+        "id": "0292abc688424c26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05704f0f14119588",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim/vim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "224e11b2660b9028",
+    "type": "split",
+    "children": [
+      {
+        "id": "e628d314f9e13693",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebe5fe12f1b3cc53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "397e4926356771df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7264664ad0cf48bd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2cad7f001cda9e9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dbaddfb03323716",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dfafed49a25e274",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vim/vim.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "964016d7078ae4a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vim/vim.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae3c4f52fbdd4241",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cc04e60c804c0cbd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vim/vim.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "05704f0f14119588",
+  "lastOpenFiles": [
+    "Git/Git.md",
+    "Vim/vim.md",
+    "Obsidian Tips.md",
+    "README.md",
+    "Page Name.md",
+    "id.md",
+    "C/enumeration.md",
+    "C/data structure.md",
+    "C/condition.md",
+    "42/42 C norme.md"
+  ]
+}

@@ -61,23 +61,50 @@ set number
 
 >:q		quit vim 
 >:w		write
->:wq || ZZ	write and quit
+>:wq || ZZ	  write and quit
 >:q!		quit without write 
->CRTL-z		put the document in the background to open it again (foreground) : fg
 >:term		open the terminal 
-
->:set number	set numbering to on
+### preference 
+>:set number    	set numbering to on
 >:set nonumber	set numbering to of
 >:syntax on	highlight the syntax
-
+### search / replace
 >/foo		search in the file (n ,  next, N, previous)
 >%s/foo1/foo2/g	repalce all foo1 with foo2 (/gc, ask confirmation, 'foo1' : change only if whole word,  /gi,  case insensitive)		
-
-
->ctrl+z		pause vim	fg to return to vim
+### windows management 
+>ctrl+z		put the document in the background to open it again (foreground) : fg
 >:sh		pause vim	ctrl+d to return to vim
+>(:term		go in Terminal-Job mode		exit to leave)
+#### buffer 
+-   `:b <partial filename><tab>` (jump to a buffer)
+-   `:bw` (buffer wipe, remove a buffer)
+-   `:e <file path>` (edit, open a new buffer)
+-   `pltags` - enable jumping to subroutine/method definitions
+- `:ls` (list of all buffer)
+#### tab
+>vim -p /path/to/file1 /path/to/file2 /path/to/file3      open the files in vim as a tab
+>:tabe\[dit] \[/path/to/file] (command-line command)      open a new tab
+>: tabn\[ext] | gt           jumping to the next tab
+>tabp\[revious] | gT      jumping to the previous tab
+>ngt                            move in the n tab
+>:tabc\[lose]                 close the current tab
+>:tabs                          displaty all the tabs / windows
+#### splitting window
+>:sp\[lit]  \[/path/to/file]     splits the window horizontally \[and opens the file]
+>:vs\[plit]  \[/path/to/file]   splits the window vertically \[and opens the file]	
+-   Jumping between windows is Ctrl-w \[cursor keys], Ctrl-w \[hjkl], or Ctrl-w Ctrl-\[hjkl]
+-   Jumping to the next window is Ctrl-w w or Ctrl-w Ctrl-w
+-   Jumping to the previous window is Ctrl-w W
+-   Jumping to the last accessed window is Ctrl-w p or Ctrl-w Ctrl-p
+-   Closing the current window is Ctrl-w c or :clo\[se]
+-   Make the current window the only one and close all other ones is Ctrl-w o or :on\[ly]
 
->:term		go in Terminal-Job mode		exit to leave
+### Macro
+1 q : record mode 
+2 lettre
+3 faire toutes les commandes 
+4 ESC, q
+@lettre
 
 ## In INSERT mode :
 >ESC	return to COMMAND mode
@@ -91,10 +118,4 @@ set number
 
 
 
-## Macro
-1 q : record mode 
-2 lettre
-3 faire toutes les commandes 
-4 ESC, q
-@lettre
 
