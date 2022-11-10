@@ -79,8 +79,11 @@ set number
 -   `:b <partial filename><tab>` (jump to a buffer)
 -   `:bw` (buffer wipe, remove a buffer)
 -   `:e <file path>` (edit, open a new buffer)
+- -   `:E` (open the tree selection)
 -   `pltags` - enable jumping to subroutine/method definitions
-- `:ls` (list of all buffer)
+-   `:ls` (list of all buffer)
+-    `:mksession! ~/today.ses`   save the session
+- -    `vim -S ~/today.ses`   load the session
 #### tab
 >vim -p /path/to/file1 /path/to/file2 /path/to/file3      open the files in vim as a tab
 >:tabe\[dit] \[/path/to/file] (command-line command)      open a new tab
@@ -90,14 +93,15 @@ set number
 >:tabc\[lose]                 close the current tab
 >:tabs                          displaty all the tabs / windows
 #### splitting window
->:sp\[lit]  \[/path/to/file]     splits the window horizontally \[and opens the file]
->:vs\[plit]  \[/path/to/file]   splits the window vertically \[and opens the file]	
+>:sp\[lit]  \[/path/to/file]     splits the window horizontally \[and opens the file] (or ctrl-w s)
+>:vs\[plit]  \[/path/to/file]   splits the window vertically \[and opens the file]	  (or ctrl-w v)
 -   Jumping between windows is Ctrl-w \[cursor keys], Ctrl-w \[hjkl], or Ctrl-w Ctrl-\[hjkl]
 -   Jumping to the next window is Ctrl-w w or Ctrl-w Ctrl-w
 -   Jumping to the previous window is Ctrl-w W
 -   Jumping to the last accessed window is Ctrl-w p or Ctrl-w Ctrl-p
 -   Closing the current window is Ctrl-w c or :clo\[se]
 -   Make the current window the only one and close all other ones is Ctrl-w o or :on\[ly]
+- Resizing : Ctrl + W +   height : '+' '-'  width : '<' '>'
 
 ### Macro
 1 q : record mode 
