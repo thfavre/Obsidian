@@ -12,7 +12,7 @@ Save all staged changes, along with a brief description from the user.
 ## Branching
 They are simply pointers to a specific commit -- nothing more.
 A branch essentially says "I want to include the work of this commit and all parent commits."
-`git branch <branchName>`
+`git branch <branchName>` (-b option th start working on the new branch isntead of checkout)
 ### Checkout
 This will put us on the new branch (before committing our changes).
 `git checkout <branchName>`
