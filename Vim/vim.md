@@ -1,11 +1,10 @@
 Vim Cheat Sheet : https://vim.rtorr.com/
  
 ## .Vimrc :
->To add some default vim configuration : 
-1) go in .vimrc file				
-2) copy paste the needed settings : https://github.com/diabolo257/vimconfig/blob/main/.vimrc
-3) `:w` to save changes
-4) `:so%` to load vim again with the new settings
+To add some default vim configuration, modify the .vimrc file : 			
+My settings  : [github](https://github.com/diabolo257/vimconfig/blob/main/.vimrc)
+`:so%` to reload vim with the new settings (otherwise)
+
 
 
 ## NORMAL mode :
@@ -16,69 +15,72 @@ Vim Cheat Sheet : https://vim.rtorr.com/
 - `A` go in INSERT mode at the end of the line
 - `s` go in insert mode and delete the character (4s to delete 4)
 - `cc` delete the line and go in INSERT mode
-
+___
 ### Save / quit 
 `:q` quit vim 
 `:w`	 write
 `:wq` or `ZZ` write and quit
 `:q!` quit without write 
-
-
+___
 ### Movement :
-- `k` move up
-- `j` move down
-- `h` move left
-- `l` move right 
-- `G` move at the end of the file (10G move at the line 10) or gg
-- `$` move at the end of the line
-- `^` move at the beginning of the line
-- `w` move at the beginning of the next word
-- `b` move at the beginning of the last word
-- `*` move to the next same word
+- `k` moves up
+- `j` moves down
+- `h` moves left
+- `l` moves right 
+- `G` moves at the end of the file (10G move at the line 10) or gg
+- `$` moves at the end of the line
+- `^` moves at the beginning of the line
+- `w` moves at the beginning of the next word
+- `b` moves at the beginning of the last word
+- `*` moves to the next same word
 - `f+CHAR` find and move to the first CHAR
-
+- `H`(igh) moves at the beginning of the screen.
+- `M`(iddle) moves at the middle of the screen.
+- `L`(ow) moves at the bottom of the screen.
+___
 ### Delete 
+- `c+[Movement]` deletes the characters from the current cursor position up to the end of the movement
 - `dd` delete a line (3dd will delete 3 lines,   or 3 Z || d$ will delete to the end of the line)
 - `dw` delete a word
 - `dt` delete the char from the cursor to the end of the word
 - `x` delete one charaacter (10 x delete 10 char)  
-
+- `X` delete the previous charaacter
+___
 ### Undo / redo
 - `u` undo
 - `ctrl+r` redo
 - `yy` copy a line (4yy copy 4 lines)			
 - `p` paste (p -> paste after, P-> paste before)
-
+___
 ### Divers 
  - `.` call last command
  - `>` indent the current line (see VISUAL mode to indent multiple lines)
-
-
+___
 ### Preference (see [[vim#.Vimrc :]])
 `:set number` set numbering to on
 `:set nonumber` set numbering to of
 `:syntax on` highlight the syntax
-
-### search / replace
+___
+### Search / replace
 - `/foo` search in the file (n ,  next, N, previous)
 - `%s/foo1/foo2/g` repalce all foo1 with foo2 
 	- `[...]gc` ask confirmation
 	- `[...]gi` case insensitive	
-
-### auto-complete
+___
+### Auto-complete
 - `:help ins-completion` see all options
 - `CTRL+n` auto-complete 
 - `CTRL+x+n` search just in THIS file
 - `CTRL+x+f` file finder
 >After one of those command, we can use `CTRL+n` and `CTRL+p` to go back and forth in the suggestion list 
-
+___
 ### windows management 
 - `ctrl+z` put the document in the background, `fg` (foreground) to open it again 
 - `:sh` pause vim,` ctrl+d` to return to vim
 - (`:term` go in Terminal-Job mode, `exit` to leave)
 
 #### buffer 
-- `vim -p /path/to/file1 /path/to/file2 /path/to/file3` open the files in vim as a buffer
+- `vim -b /path/to/file1 /path/to/file2 /path/to/file3` open the files in vim as a buffer
 - `:b[uffer] <partial filename><tab>` jump to a buffer
 - `:bw` buffer wipe, remove a buffer
 - `:e[dit] <file path>` editpen a new buffer
@@ -111,7 +113,7 @@ Vim Cheat Sheet : https://vim.rtorr.com/
 - `Ctrl+W+`   
 	- `+` or `-`  to resize the height
 	-  `<` or `>` to resize the width 
-
+___
 ### Macro
 1) `q` : record mode 
 2) `lettre`
