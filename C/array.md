@@ -3,7 +3,7 @@ Suject linked to [[pointer]]
 
 ## Concept :
 ```C
-int tab[3]  // demande au programme d'allouer 3 int  sur la stack
+int tab[3]  // demande au programme d'allouer 3 int sur la stack
 ```
 tab est un pointeur sur int possedant l'adresse du premier int
 

@@ -4,18 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0292abc688424c26",
+        "id": "6de27e032458950f",
         "type": "tabs",
         "children": [
           {
-            "id": "05704f0f14119588",
+            "id": "c8dbfaab6ea8725f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Vim/vim.md",
-                "mode": "source",
-                "source": false
+                "file": "CPP/CPP.canvas",
+                "viewState": {
+                  "x": 2271.2053773513835,
+                  "y": 1432.6221811282885,
+                  "zoom": -0.8375760747723089,
+                  "snapToGrid": true
+                }
               }
             }
           }
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/vim.md",
+                "file": "CPP/CPP.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/vim.md",
+                "file": "CPP/CPP.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,28 +129,39 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/vim.md"
+                "file": "CPP/CPP.canvas"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "05704f0f14119588",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c8dbfaab6ea8725f",
   "lastOpenFiles": [
-    "Git/Git.md",
     "Vim/vim.md",
-    "Obsidian Tips.md",
-    "README.md",
-    "Page Name.md",
-    "id.md",
+    "CPP/CPP.canvas",
+    "C/array.md",
+    "2023-01-12.md",
+    "C/pointer.md",
     "C/enumeration.md",
-    "C/data structure.md",
-    "C/condition.md",
-    "42/42 C norme.md"
+    "C/input _ output.md",
+    "C/header file.md",
+    "C/debbuger.md",
+    "C/define.md"
   ]
 }

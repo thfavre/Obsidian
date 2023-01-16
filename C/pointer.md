@@ -90,6 +90,18 @@ int main() {
 }
 ```
 
+## Void pointers
+```C
+int x = 10;
+void *vp = &x;  // It works
+
+*vp = 15;  // Error! we can not dereference a void pointer!
+*(int *)vp = 15;  // It works ! We have to cast before dereference a void pointer
+
+```
+
+### Exampe : malloc 
+![[malloc]]
 
 ## Old notes :
 Pointers * :

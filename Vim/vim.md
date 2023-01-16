@@ -27,9 +27,13 @@ ___
 - `j` moves down
 - `h` moves left
 - `l` moves right 
-- `G` moves at the end of the file (10G move at the line 10) or gg
+- `gg` moves at the beginning of the file
+- `G` moves at the end of the file (10G move at the line 10)
+- `w` moves at the beginning of the next word
+- `b` moves at the beginning of the previous word
+- `e` moves at the end of the word
 - `$` moves at the end of the line
-- `^` moves at the beginning of the line
+- `^` `0` moves at the beginning of the line
 - `w` moves at the beginning of the next word
 - `b` moves at the beginning of the last word
 - `*` moves to the next same word
@@ -39,7 +43,8 @@ ___
 - `L`(ow) moves at the bottom of the screen.
 ___
 ### Delete 
-- `c+[Movement]` deletes the characters from the current cursor position up to the end of the movement
+- `c(hange)+[Movement]` deletes the characters from the current cursor position up to the end of the movement
+- `c`(hange) + `i`(nside) + `{` delete everything in between the { } and go in insert mode  
 - `dd` delete a line (3dd will delete 3 lines,   or 3 Z || d$ will delete to the end of the line)
 - `dw` delete a word
 - `dt` delete the char from the cursor to the end of the word
@@ -63,7 +68,7 @@ ___
 ___
 ### Search / replace
 - `/foo` search in the file (n ,  next, N, previous)
-- `%s/foo1/foo2/g` repalce all foo1 with foo2 
+- `%s/foo1/foo2/g` replace all foo1 with foo2 
 	- `[...]gc` ask confirmation
 	- `[...]gi` case insensitive	
 ___

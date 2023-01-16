@@ -10,7 +10,7 @@ if (condition)
 } else 
 {
  ... 
- }
+}
 ```
 
 ## Ternary Operator : 
