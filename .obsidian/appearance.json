@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Obsidian Nord"
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "translucency": false
 }
