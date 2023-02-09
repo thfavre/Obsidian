@@ -1,4 +1,5 @@
-# [[C]] ifdef ifndef
+#C 
+
 It is a [[preprocessor directive]]
 ## \#ifdef :
 pour savoir si ca a ete define

@@ -1,4 +1,5 @@
-# [[C]] constant
+#C 
+
 [[variable]] that can not be changed after his creation
 
 ## Syntax :

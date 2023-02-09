@@ -1,4 +1,4 @@
-# [[C]] typedef
+#C
 
 ## Concept :
 Allow to redefine a name for a type of varibale
@@ -11,7 +11,7 @@ int *a, b, c; // error!
 int *a, *b, *c; // correct but annoying 
 ```
 
-## Sytax :
+## Syntax :
 >typedef type \* name;
 
 

@@ -1,4 +1,5 @@
-# [[C]] if else elif endif if defined
+#C 
+
 It is a [[preprocessor directive]]
 ## Example :
 ```C:main

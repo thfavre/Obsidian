@@ -1,4 +1,4 @@
-# [[C]] compilation
+#C
 
 ## gcc :
 ### Phases :
@@ -9,7 +9,7 @@ commande : cpp
 compilations de tous les fichiers .c
 (erreurs de compilations)
 #### 3) Linkage 
-fichier .o vont etre linker ensemble (erreurs communes : plusieurs fois la meme fonction, ou fonction pas definie)
+fichier .o vont être linker ensemble (erreurs communes : plusieurs fois la meme fonction, ou fonction pas definie)
 
 
 Possibility to recompile juste one file 

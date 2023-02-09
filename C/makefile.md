@@ -1,4 +1,5 @@
-# [[C]] makefile
+#C 
+
 ## Concept :
 Fichier qui permet d'organiser la compilation avec un ensemble de règles
 

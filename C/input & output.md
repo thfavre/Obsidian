@@ -1,5 +1,6 @@
-# [[C]] input & output
-## Output / String formating :
+#C 
+
+## Output / String formatting :
 - "%d" || "%i" 	int
 - "%u"	unsigned int
 - "%ld"	long
@@ -24,7 +25,7 @@ scanf(variable_format, variabel_address)
 #include <unistd.h>
 write(int fildes, const void *buf, size_t nbytes);
 ```
-unistd
+
 ### Examples :
 ```C
 #include <stdio.h>

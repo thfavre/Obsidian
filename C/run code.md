@@ -1,4 +1,5 @@
-# [[C]] run code
+#C 
+
 ```shell
 gcc NAME.c
 ./a.out 
@@ -9,8 +10,8 @@ gcc NAME.c -o NAME
 ./NAME
 ```
 
-gcc flags :
->gcc -Wall -Werror -Wextra fileName.c
+`gcc` flags :
+>`gcc -Wall -Werror -Wextra fileName.c`
 
 
 

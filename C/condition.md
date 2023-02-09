@@ -1,4 +1,5 @@
-# [[C]] condition
+#C 
+
 ## if, else if, else :
 ```C
 if (condition) 

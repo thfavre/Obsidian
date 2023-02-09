@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "input & output",
+      "path": "C/input & output.md"
+    },
+    {
       "basename": "Attribute",
       "path": "The Web Developer Bootcamp 2023/HTML/Attribute.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Skeleton",
       "path": "The Web Developer Bootcamp 2023/HTML/Skeleton.md"
-    },
-    {
-      "basename": "input & output",
-      "path": "C/input & output.md"
     },
     {
       "basename": "Back End",

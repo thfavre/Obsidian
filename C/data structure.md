@@ -1,4 +1,4 @@
-# [[C]] data structure
+#C
 
 ## ![[typedef]]
 ## ![[structure]]

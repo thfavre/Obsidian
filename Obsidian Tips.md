@@ -1,5 +1,5 @@
 
-# Keybindings
+# Key bindings
 | Key    | Description             |
 | ------ | ----------------------- |
 | ctrl-p | open command palette    |

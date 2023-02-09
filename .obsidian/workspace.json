@@ -214,6 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C/input & output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,6 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C/input & output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +253,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C/input & output.md"
+              }
             }
           }
         ],

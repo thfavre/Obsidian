@@ -1,4 +1,4 @@
-# [[C]] memory adress
+#C
 
 ## Concept :
 - The memory address is the location where the variable is stored on the computer

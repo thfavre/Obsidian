@@ -1,3 +1,7 @@
+#C
+
+Related : [[Heap, maloc, free]]
+
 Prototype : `void *malloc(size_t size)`
 Use malloc when we return a pointer from a function
 

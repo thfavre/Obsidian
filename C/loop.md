@@ -1,4 +1,4 @@
-# [[C]] loop
+#C
 
 ## while :
 ```C
