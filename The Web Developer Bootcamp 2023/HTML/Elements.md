@@ -149,7 +149,114 @@ C<sup>8<\sup>H<sup>10<\sup>
 ```
 > C₈H₁₀
 
+## Form [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form)
+Represents a document section containing interactive controls for submitting information.
+When summiting a form, a [[http request ]]will be send.
+```html
+<form action=""></form>
+```
 
+### Input `<input>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input)
+Used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and [user agent](https://developer.mozilla.org/en-US/docs/Glossary/User_agent). The `<input>` element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
+```html
+<form>
+	<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10" placeholder="TEXT">
+</form>
+```
+The `type` can be [password](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password), [color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color), [number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number),  [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox),  [radio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio), ...
+#### Attributes :
+- [`placeholder`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#placeholder) : Text that appears in the form control when it has no value set.
+- [`minlength`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#minlength) : Minimum length (number of characters) of `value`
+- ...
+### Button `<button> </button>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/button)
+Is an interactive element activated by a user. Once activated, it then performs an action, such as submitting a [form](https://developer.mozilla.org/en-US/docs/Learn/Forms) or opening a dialog.
+Outside a 'form' the default type is 'button';
+```html
+<button class="favorite styled"
+        type="button">
+    Add to favorites
+</button>
+```
+When a button is inside a form, the default behaviour ('type=submit') is to submit the form. (go to `relative_link`)
+```html
+<form action="/relative_link">
+	<button>Submit</button>
+</form>
+```
+
+### Select `<select> </select>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+Represents a control that provides a menu of options.
+```html
+<label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+```
+### Example : a form that make a reddit search
+```html
+<form action="https://www.reddit.com/search">
+	<input type="text" name="q">
+	<button>Search Reddit</button>
+</form>
+```
+## Label `<label>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/label)
+Represents a caption for an item in a user interface.
+```html
+<div class="preference">
+    <label for="cheese">Do you like cheese?</label>
+    <input type="checkbox" name="cheese" id="cheese">
+</div>
+```
+The [[id]] and `for` should be the same.
+## Table `<table> </table>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table)
+
+### Elements
+
+### `<td>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/td)
+Defines a **cell** of a table that contains data. It participates in the _table model_.
+
+### `<th>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/th)
+Defines a cell as header of a group of table cells. The exact nature of this group is defined by the [`scope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-scope) and [`headers`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-headers) attributes.
+
+### `<tr>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tr)
+Defines a **row** of cells in a table. The row's cells can then be established using a mix of [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) (data cell) and [`<th>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th) (header cell) elements.
+
+### `<thead>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/thead)
+Defines a set of rows defining the head of the columns of the table.
+
+### `<tbody>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tbody)
+Encapsulates a set of table rows ([`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr) elements), indicating that they comprise the body of the table ([`<table>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)).
+
+### `<tfoot>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/tfoot)
+Defines a set of rows summarizing the columns of the table.
+
+### Example :
+```html
+<table>
+	<tr>
+		<th>Title Col 1</th> 
+	</tr>
+	<tr>
+		<th>Title Col 2</th> 
+	</tr>
+	<tr>
+		<td>Col 1 Row 1</td>
+		<td>Col 2 Row 1</td>
+	</tr>
+	<tr>
+		<td>Col 1 Row 2</td>
+		<td>Col 2 Row 2</td>
+	</tr>
+</table>
+```
 
 
 # Semantic Elements
@@ -185,3 +292,8 @@ Represents introductory content, typically a group of introductory or navigation
 
 ## `<footer> <\footer>`  [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 Represents a footer for its nearest ancestor [sectioning content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#sectioning_content) or [sectioning root](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#sectioning_root) element. A `<footer>` typically contains information about the author of the section, copyright data or links to related documents.
+
+# Example 
+```html
+
+```
