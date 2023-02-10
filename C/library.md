@@ -1,4 +1,5 @@
-# [[C]] library
+#C 
+
 It is a [[preprocessor directive]]
 \#include <...>	import file to the projet 
 

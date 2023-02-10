@@ -1,4 +1,5 @@
-# [[C]] enumeration
+#C 
+
 ## Concept : 
 Permet de definir un nouvea utype de variable,
 definir des constantes ===entières=== (ca sera focrement des ints)

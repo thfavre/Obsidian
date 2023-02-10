@@ -1,4 +1,5 @@
-# [[C]] define
+#C 
+
 Commence avec \# c'est donc [[preprocessor directive]]-> executer avant la compilation
 Sert a definir une variable puis a la remplacer
 ===Remplacement par text===!

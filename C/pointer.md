@@ -1,4 +1,4 @@
-# [[C]] pointer
+#C
 
 ## Concept :
 A pointer have the adress of a variable

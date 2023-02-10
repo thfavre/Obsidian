@@ -1,4 +1,4 @@
-# [[C]] structure
+#C
 
 ## Concept :
 [[typedef]] permettait de changer un type deja existant

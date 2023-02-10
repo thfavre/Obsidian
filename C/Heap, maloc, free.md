@@ -1,4 +1,5 @@
-# [[C]] Heap, malloc, free
+#C
+
 ## Heap :
 partie de la mémoire basse 
 aussi appelé le tas 

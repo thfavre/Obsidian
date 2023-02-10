@@ -1,4 +1,4 @@
-# [[C]] string
+#C
 
 ## Concept :
 It is just a convention, string do not realy exisit in C, it is just an [[array]] of char!

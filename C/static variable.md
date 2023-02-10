@@ -1,4 +1,5 @@
-# [[C]] static [[variable]]
+#C 
+
 - Inside a function we can initialize a static variable
 - [[variable#Global variables]] are static by default
 - ->They are initialized to 0

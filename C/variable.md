@@ -1,4 +1,5 @@
-# [[C]] variable
+#C 
+
 ## Types Size :
 ### Integer variable:
 #### signed char : 

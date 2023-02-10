@@ -1,4 +1,4 @@
-# [[C]] preprocessor directive
+#C
 
 \# : preprocessor directive (read at the start of the compliation)
 cpp : permet de voir le resultat final de la precompilation

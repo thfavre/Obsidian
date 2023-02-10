@@ -1,4 +1,5 @@
-# [[C]] recursivity
+#C 
+
 A function is recursive if it call itself in his body.
 Otherwise a function is iterative;
 

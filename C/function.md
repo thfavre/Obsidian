@@ -1,4 +1,4 @@
-# [[C]] function
+#C
 
 ## Sytax : 
 

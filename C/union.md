@@ -1,4 +1,4 @@
-# [[C]] union
+#C
 
 ## Concept :
 Pareil que struc mais on va utiliser le meme espace memoire pour toutes les variables!
