@@ -209,6 +209,7 @@ Represents a control that provides a menu of options.
 ```
 ## Label `<label>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/label)
 Represents a caption for an item in a user interface.
+When a `label` is clicked, the button, input,.. is selected.
 ```html
 <div class="preference">
     <label for="cheese">Do you like cheese?</label>
