@@ -1,6 +1,7 @@
 #CSS 
 
 [Color picker website](https://htmlcolorcodes.com/color-picker/)
+[Trending Color Palettes](https://coolors.co/palettes/trending)
 # By name
 All browsers know some basic colors names. ([list](https://htmlcolorcodes.com/color-names/))
 ## Example

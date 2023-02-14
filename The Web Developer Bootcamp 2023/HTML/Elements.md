@@ -164,11 +164,11 @@ Used to create interactive controls for web-based forms in order to accept data 
        minlength="4" maxlength="8" size="10" placeholder="TEXT">
 </form>
 ```
-The `type` can be [password](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password), [color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color), [number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number),  [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox),  [radio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio), ...
+The `type` can be [password](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password), [color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color), [number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number),  [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox),  [radio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio), …
 #### Attributes :
 - [`placeholder`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#placeholder) : Text that appears in the form control when it has no value set.
 - [`minlength`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#minlength) : Minimum length (number of characters) of `value`
-- ...
+- …
 ### Button `<button> </button>` [MDN](https://developer.mozilla.org/fr/docs/Web/HTML/Element/button)
 Is an interactive element activated by a user. Once activated, it then performs an action, such as submitting a [form](https://developer.mozilla.org/en-US/docs/Learn/Forms) or opening a dialog.
 Outside a 'form' the default type is 'button';
@@ -178,7 +178,7 @@ Outside a 'form' the default type is 'button';
     Add to favorites
 </button>
 ```
-When a button is inside a form, the default behaviour ('type=submit') is to submit the form. (go to `relative_link`)
+When a button is inside a form, the default behavior ('type=submit') is to submit the form. (go to `relative_link`)
 ```html
 <form action="/relative_link">
 	<button>Submit</button>
