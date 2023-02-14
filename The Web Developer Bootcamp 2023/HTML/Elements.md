@@ -164,6 +164,9 @@ Used to create interactive controls for web-based forms in order to accept data 
        minlength="4" maxlength="8" size="10" placeholder="TEXT">
 </form>
 ```
+
+^a70f18
+
 The `type` can be [password](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password), [color](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color), [number](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number),  [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox),  [radio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio), …
 #### Attributes :
 - [`placeholder`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#placeholder) : Text that appears in the form control when it has no value set.
@@ -178,6 +181,9 @@ Outside a 'form' the default type is 'button';
     Add to favorites
 </button>
 ```
+
+^3c130f
+
 When a button is inside a form, the default behavior ('type=submit') is to submit the form. (go to `relative_link`)
 ```html
 <form action="/relative_link">
