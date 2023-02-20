@@ -22,14 +22,14 @@ button {
 ```
 
 ## List `selector1, selector2 {`
-Select all `name` of the page.
+Select all `h1` and `h2` of the page.
 ```CSS
 h1, h2 {
 	color: pink;
 }
 ```
 
-## ID  `#tagname  {` [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/ID_selectors)
+## ID  `#tagname {` [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/ID_selectors)
 To style one thing differently.
 An [[id]] is only used once!
 ```html
@@ -96,7 +96,7 @@ div > p {
 }
 ```
 
-## Attribute `selector[attribute="..."]` [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Attribute_selectors)
+## Attribute `selector[attribute="..."] {` [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Attribute_selectors)
 Select all input elements where the [[Elements#^a70f18|element]] type attribute is set to `"text"`
 ```html
 <input type="text" placeholder="search!" id="search">
@@ -121,7 +121,7 @@ input[class="post"] {
 ```
 (same as `section.post`)
 
-## Pseudo-Class [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes)
+## Pseudo-Class `:` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes)
 Keyword added to a selector that specifies a special state of the selected element(s).
 ### `:over` [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/:hover)
 ```CSS
@@ -136,7 +136,7 @@ a:hover {
 ### `:nth-of-type()` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type) 
 ### `:active` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:active) 
 
-## Pseudo-Elements [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-elements)
+## Pseudo-Elements `::` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-elements)
 Keyword added to a selector that lets you style a particular part of selected element(s).
 For example to change the color of the first letter.
 ### `::first-letter` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)

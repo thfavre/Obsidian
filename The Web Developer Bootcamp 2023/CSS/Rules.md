@@ -34,6 +34,7 @@ Inside the html : (**bad** practice)
 
 ```
 Bad because I have to write it on every button, and if I want to change the color, I have to change it individually. 
+Have the highest [[Specificity#Inline style|priority]].  
 
 ## The `<style>` [[Elements]]
 Inside the html (**bad practice**)
