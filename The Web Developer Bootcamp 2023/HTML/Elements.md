@@ -27,7 +27,7 @@ para2
 
 ## Heading `<h1> </h1>`
 We should have at most one h1 at the top of the page.
-We should never have a `<h3>` if we dont have a `<h2>`, etc.
+We should never have a `<h3>` if we don't have a `<h2>`, etc.
 ```html
 <h1>Title<\h1>
 <h2>Terminology<\h2>

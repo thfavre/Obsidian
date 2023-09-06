@@ -128,3 +128,37 @@ div {
 	border: medium dashed green;
 }
 ```
+
+## `padding` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+An element's padding area is the space between its content and its border.
+```CSS
+div {
+	padding-left: 100px;
+}
+```
+#### Shorted syntax [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+```CSS
+button {
+	/* Apply to all four sides  */
+	padding: 5px;
+}
+body {
+	/* top and bottom | left and right */
+	padding: 5% 10%;
+}
+div {
+	/* top | right | bottom | left */
+	padding: 5px 1em 0 2em;
+}
+```
+## `margin` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+Space outside an element border 
+Works like the padding :
+```CSS
+div {
+	margin-left: 30px; 
+}
+button {
+	margin: 10%;
+}
+```
